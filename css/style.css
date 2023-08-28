@@ -1,0 +1,76 @@
+/* Header and Menu Design */
+
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#menubar{
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    text-align: -webkit-center;
+}
+
+div{
+    box-sizing: border-box;
+    width: 141px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    margin-left: -5px;
+    padding-top: 10px;
+}
+
+/* Page */
+
+#home{
+    border: 1px solid black;
+    height: 578px;
+    margin-top: -1px;
+    
+    background-image: url(https://lh3.googleusercontent.com/proxy/-mB7Mut6CN3ZPZISZOAzI5UOH_sroJ-KWi1QLoyeOi1k0fuFQ1pmQA5c4XdUaQvzxzhFx1TFXkPkrgYu9Qa2ssz0yQloY7nVl0SkZlzN6y2GIerRfVXxVVFX71OoIAv6Fk830dR6FDlmqpo3kn96aY3TKEAI0oA607eflKKB4cOe=w1920-h1080-k-no);
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-size: cover;
+    filter: brightness(120%);
+}
+
+#nama-user{
+    height: 25px;
+    margin-top: 27px;
+    font-weight: bold;
+    font-family: auto;
+}
+
+
+section{
+    border: 1px solid black;
+    margin-top: -1px;
+    display: block;
+    align-items: center;
+    padding-left: 100px;
+}
+
+#container{
+    height: 210px;
+}
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article img{
+    border-radius: 50%;
+    display: block;
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+}
